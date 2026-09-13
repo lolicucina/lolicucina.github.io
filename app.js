@@ -1,8 +1,8 @@
 const flavors = {
-  clasico: { name: "Clásico", price: 3.5 },
-  arequipe: { name: "Arequipe", price: 4.2 },
-  chocolate: { name: "Chocolate", price: 4.2 },
-  apple: { name: "Apple Cinnamon", price: 4.2 },
+  clasico: { name: "Clásico", price: 4 },
+  arequipe: { name: "Arequipe", price: 4.9 },
+  chocolate: { name: "Ovomaltina", price: 4.9 },
+  apple: { name: "Manzanitas con canela", price: 5 },
 };
 const counts = { clasico: 0, arequipe: 0, chocolate: 0, apple: 0 };
 const form = document.querySelector("#pedido");
