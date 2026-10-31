@@ -2,8 +2,9 @@ const flavors = {
   clasico: { name: "Clásico", price: 4 },
   arequipe: { name: "Arequipe", price: 4.5 },
   chocolate: { name: "Ovomaltina", price: 4.5 },
+  oreo: { name: "Oreo", price: 5 },
 };
-const counts = { clasico: 0, arequipe: 0, chocolate: 0 };
+const counts = { clasico: 0, arequipe: 0, chocolate: 0, oreo: 0 };
 const form = document.querySelector("#pedido");
 const rollCount = document.querySelector("#rollCount");
 const totalElement = document.querySelector("#total");
